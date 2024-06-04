@@ -1,0 +1,36 @@
+.btn-outline-success{
+  border-color: #212529;
+  color: #212529;
+}
+.btn-outline-success:hover{
+  border-color: #212529;
+  background-color: #212529;
+  color: #FFF;
+}
+
+
+
+footer a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+footer .title {
+  font-size: 12px;
+  font-weight: 700;
+}
+.second-line {
+  border-top: 1px solid #d9dce0;
+  font-size: 10px;
+}
+
+
+
+@media screen and (max-width:96rem) {
+  .second-line {
+    text-align: center;
+  }
+  .second-line-menu {
+    border-bottom: 1px solid #d9dce0;
+  }
+}
